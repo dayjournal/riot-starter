@@ -7,9 +7,11 @@
 ![README04](./img/README04.png)
 
 Start Riot.js easily.  
-- [Riot.js](http://riotjs.com)  
-- [Materialize](http://materializecss.com)  
-- [webpack](https://webpack.js.org)  
+- [Riot.js v3.13.1](http://riotjs.com)  
+- [Materialize v1.0.0](http://materializecss.com)  
+- [webpack v4.20.2](https://webpack.js.org)  
+- node v10.0.0  
+- npm v6.4.1  
 
 <br/>
 
@@ -37,6 +39,16 @@ npm run build
 
 ```
 
+<br>
+
+dev
+
+```
+
+npm run dev
+
+```
+
 <br/>
 <br/>
 
@@ -47,7 +59,7 @@ npm run build
 ## License
 MIT
 
-Copyright (c) 2017 Yasunori Kirimoto
+Copyright (c) 2018 Yasunori Kirimoto
 
 <br/>
 
@@ -68,9 +80,11 @@ Copyright (c) 2017 Yasunori Kirimoto
 ![README04](./img/README04.png)
 
 Riot.jsを手軽に始める
-- [Riot.js](http://riotjs.com)  
-- [Materialize](http://materializecss.com)  
-- [webpack](https://webpack.js.org)  
+- [Riot.js v3.13.1](http://riotjs.com)  
+- [Materialize v1.0.0](http://materializecss.com)  
+- [webpack v4.20.2](https://webpack.js.org)  
+- node v10.0.0  
+- npm v6.4.1  
 
 <br/>
 
@@ -94,6 +108,16 @@ npm run build
 
 ```
 
+<br>
+
+開発
+
+```
+
+npm run dev
+
+```
+
 <br/>
 <br/>
 
@@ -104,6 +128,6 @@ npm run build
 ## ライセンス
 MIT
 
-Copyright (c) 2017 Yasunori Kirimoto
+Copyright (c) 2018 Yasunori Kirimoto
 
 <br/>

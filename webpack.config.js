@@ -1,4 +1,4 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
 
 module.exports = {
     entry: './_resouce/main.js',
@@ -32,16 +32,17 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false
-            }
-        }),
         new webpack.ProvidePlugin({
             riot: 'riot',
             $: 'jquery',
             jQuery: 'jquery',
             'window.jQuery': 'jquery'
         })
-    ]
+    ],
+    devServer: {
+        contentBase: __dirname + '/dist',
+        publicPath: '/',
+        watchContentBase: true,
+        open: true
+    }
 };
