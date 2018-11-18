@@ -43,7 +43,7 @@
         this.click = function() {
 
             // 出力ページへ移動
-            location.href = "/#output";
+            location.href = location.href + "/#output";
 
         }.bind(this);
 
